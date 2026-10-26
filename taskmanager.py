@@ -13,7 +13,7 @@ def carregar_tarefas():
 
         print("O arquivo de tarefas tem um formato inválido. Começando com uma lista vazia.")
     except FileNotFoundError:
-        pass  # Na primeira execução, o arquivo ainda não existe.
+        pass
     except json.JSONDecodeError:
         print("O arquivo de tarefas está inválido. Começando com uma lista vazia.")
 
