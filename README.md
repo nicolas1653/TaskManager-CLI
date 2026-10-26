@@ -10,10 +10,10 @@ O objetivo é facilitar a organização de atividades e consolidar conhecimentos
 ## ⚙️ Funcionalidades
 
 Adicionar tarefas
-Remover a última tarefa
-Editar a última tarefa
-Listar todas as tarefas
-Salvar tarefas em um arquivo para manter os dados após fechar o programa
+- Remover a última tarefa
+- Editar a última tarefa
+- Listar todas as tarefas
+- Salvar tarefas em um arquivo para manter os dados após fechar o programa
 
 ## 🛠️ Tecnologias utilizadas
 
