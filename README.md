@@ -36,13 +36,13 @@ python3 --version
 ### 2. Clone o repositório
 
 ```bash
-git clone URL_DO_SEU_REPOSITORIO
+git clone https://github.com/nicolas1653/TaskManager-CLI.git)
 ```
 
 ### 3. Entre na pasta do projeto
 
 ```bash
-cd TaskFlow
+cd taskmanager
 ```
 
 ### 4. Execute o programa
