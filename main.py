@@ -1,3 +1,4 @@
+import os
 import json
 from pathlib import Path
 
@@ -13,7 +14,7 @@ def carregar_tarefas():
 
         print("O arquivo de tarefas tem um formato inválido. Começando com uma lista vazia.")
     except FileNotFoundError:
-        pass
+        pass  # Na primeira execução, o arquivo ainda não existe.
     except json.JSONDecodeError:
         print("O arquivo de tarefas está inválido. Começando com uma lista vazia.")
 
@@ -46,6 +47,7 @@ def confirmar(pergunta):
 
 # MENU PRINCIPAL
 while True:
+    os.system('clear')
     print('\n===== GERENCIADOR DE TAREFAS =====')
     print('(1) para adicionar tarefas')
     print('(2) para remover a última tarefa')
