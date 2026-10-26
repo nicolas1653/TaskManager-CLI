@@ -36,7 +36,7 @@ python3 --version
 ### 2. Clone o repositório
 
 ```bash
-git clone https://github.com/nicolas1653/TaskManager-CLI.git)
+git clone https://github.com/nicolas1653/TaskManager-CLI.git
 ```
 
 ### 3. Entre na pasta do projeto
