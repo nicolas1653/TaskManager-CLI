@@ -48,14 +48,14 @@ cd taskmanager
 ### 4. Execute o programa
 
 ```bash
-python3 taskmanager.py
+python3 main.py
 ```
 
 ## 📂 Estrutura do projeto
 
 ```text
 TaskManager/
-├── taskmanager.py
+├── main.py
 └── README.md
 ```
 
