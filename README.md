@@ -55,8 +55,10 @@ python3 main.py
 
 ```text
 TaskManager/
+├── tarefas.json
 ├── main.py
 └── README.md
+
 ```
 
 ## 🎯 Objetivo de aprendizado
